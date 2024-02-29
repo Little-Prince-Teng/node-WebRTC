@@ -1,0 +1,13 @@
+{
+	"name": "node-webrtc",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "node src/signaling/signaling-http-server.js"
+	},
+	"author": "teng.lu",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}

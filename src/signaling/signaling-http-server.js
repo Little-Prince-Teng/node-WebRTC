@@ -74,6 +74,9 @@ io.on('connection', (socket) => {
 	socket.on('message', (data) => {
 		console.log('message', data)
 	})
+	socket.on('audiovideodata', (data) => {
+		console.log('data', data)
+	})
 })
 
 // 用户加入房间
